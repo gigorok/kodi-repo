@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<addon id="repository.video-hub" name="Video-Hub Repo" version="0.1.0" provider-name="gigorok">
+    <extension point="xbmc.addon.repository" name="Video-Hub Repository">
+        <info compressed="false">https://raw.githubusercontent.com/gigorok/kodi-repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/gigorok/kodi-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/gigorok/kodi-repo/raw/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary></summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>

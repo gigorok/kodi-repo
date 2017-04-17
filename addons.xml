@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.video-hub"
+       version="0.1.0"
+       name="Video Hub"
+       provider-name="gigorok">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Video Hub</summary>
+        <description lang="en">Kodi Video Hub addon.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.video-hub" name="Video-Hub Repo" version="0.1.0" provider-name="gigorok">
+    <extension point="xbmc.addon.repository" name="Video-Hub Repository">
+        <info compressed="false">https://raw.githubusercontent.com/gigorok/kodi-repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/gigorok/kodi-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/gigorok/kodi-repo/raw/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary></summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>

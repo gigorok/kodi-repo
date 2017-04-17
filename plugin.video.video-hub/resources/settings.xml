@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category label="API Settings">
+        <setting id="api_url" type="text" label="API URL" default="http://127.0.0.1"/>
+        <setting id="api_key" type="text" label="API Key"/>
+    </category>
+</settings>
